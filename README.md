@@ -2,6 +2,8 @@
 
 a tools for pdf has some functions like merge images to pdf or import a pdf to images.
 
+this tool use library of  [dlemstra/Magick.NET](https://github.com/dlemstra/Magick.NET)
+
 
 
 ### **Usage**
