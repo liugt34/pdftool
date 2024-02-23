@@ -48,7 +48,7 @@ pdftool.exe export -d=d:\test -s=d:\test\123.pdf
 ### Run in Linux
 build this project like this.
 
-![image](https://github.com/liugt34/pdftool/assets/8056013/516072bc-f6aa-4cfc-a061-d7f04448c32f)
+![image](https://github.com/liugt34/pdftool/assets/8056013/c7f85f5a-e3c6-48d5-bcbe-ef7acf95355a)
 
 
 ![image](https://github.com/liugt34/pdftool/assets/8056013/da06e758-de1f-4235-a067-ba308da8e68c)
