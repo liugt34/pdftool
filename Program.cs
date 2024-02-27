@@ -141,7 +141,6 @@ namespace pdftool
             //settings.Width = 595;
             //settings.Height = 842;
             settings.Page = new MagickGeometryFactory().CreateFromPageSize("a4");
-            settings.Density = new Density(72);
 
             var files = Directory.EnumerateFiles(dir)
                                  .Where(s => s.ToLower().EndsWith(".jpg") || s.ToLower().EndsWith(".png"))
@@ -150,6 +149,7 @@ namespace pdftool
             foreach (var file in files)
             {
                 var image = new MagickImage(file, settings);
+				image.Density = new Density(72);
 
                 if (image.Width > settings.Page.Width || image.Height > settings.Page.Height)
                 {
